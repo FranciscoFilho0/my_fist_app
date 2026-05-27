@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'App do Pedro',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.red)),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 0, 255, 170))),
       home: const MyHomePage(title: 'Minha aplicação em Flutter'),
     );
   }
