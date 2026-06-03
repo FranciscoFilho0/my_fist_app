@@ -7,6 +7,8 @@ class Candidate {
   int graduationYear;
   bool available;
   List<String> technicalSkills;
+  List<String> softSkills;
+
 
   //construtor
   Candidate({
@@ -17,6 +19,7 @@ class Candidate {
     required this.graduationYear,
     required this.available,
     required this.technicalSkills,
+    required this.softSkills,
   });
 
   static List<Candidate> candidates() {
@@ -29,6 +32,7 @@ class Candidate {
         graduationYear: 2026,
         available: true,
         technicalSkills: ["HTML", "CSS", "Javascript", "PHP", "IA"],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -51,6 +55,7 @@ class Candidate {
           "MONGODB",
           "DEPLOY",
         ],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -61,6 +66,7 @@ class Candidate {
         graduationYear: 2026,
         available: false,
         technicalSkills: ["HTML", "CSS", "JavaScript", "Java", "PHP", "IA"],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -78,6 +84,7 @@ class Candidate {
           "Flutter",
           "Dart",
         ],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -96,6 +103,7 @@ class Candidate {
           "Informática básica",
           "Recepção",
         ],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -106,6 +114,7 @@ class Candidate {
         graduationYear: 2026,
         available: true,
         technicalSkills: ["HTML", "CSS", "JAVASCRIPT", "PHP"],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
 
       Candidate(
@@ -116,6 +125,7 @@ class Candidate {
         graduationYear: 2026,
         available: false,
         technicalSkills: ["HTML", "CSS", "Javascript", "Recursos Humanos"],
+        softSkills: ["Comunicação", "Trabalho em equipe", "Resolução de problemas"],
       ),
     ];
   }
